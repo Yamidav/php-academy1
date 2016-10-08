@@ -39,7 +39,7 @@ function makeDrink(array $drinks, $flavour = 'apple')
         'has just been prepared.',
     ]);
 }
-$drinks = ['soda', 'juice'];
+$drinks = ['soda'];
 $result = makeDrink(...[$drinks, 'orange']);
 // call_user_func
 // call_user_func_array
